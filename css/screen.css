@@ -58,7 +58,7 @@ a {
   padding: 50px; }
 
 h1 { 
-  font-size: 6em; 
+  font-size: 5em; 
   color: #2a2a2a; } 
 
 h2 {
@@ -74,4 +74,21 @@ p {
 h3 {
     font-size: 2.5em;
     color: #2a2a2a;
+}
+
+body {
+    font-family: 'Josefin Sans';
+}
+
+@media (max-width: 768px) {
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+    }
+
+    .navbar .navbar-collapse {
+        text-align: center;
+        margin-top: 2em;
+    }
 }

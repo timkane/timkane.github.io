@@ -4,57 +4,49 @@
     <head>
         <title>Tim Kane</title>
         <meta charset="utf-8" />
+        <link href='https://fonts.googleapis.com/css?family=Josefin Sans' rel='stylesheet'>
         <link rel="stylesheet" href="css/bootstrap.min.css" />
         <link href="css/screen.css" media="screen" rel="stylesheet" type="text/css" />
-        
-
     </head>
 
-    <body class="index container-fluid">
+    <body>
 
-        <div id="main" role="main">
-            <div class="row" style="margin: auto">
-                <div class="col-2"></div>
-                <div class="col-2">
-                    <img src="images/Broken_Top-133.jpg" alt="Tim in Snow" style="width: 200px; padding: 2%; border-radius:50%;">
-                </div>
-                <div class"col-4" style="margin: auto;">
-                    <h1>Tim Kane</h1>
-                    <h2 style="padding-left: .5em;">CS 160 Portfolio</h2>
-                </div>
-                <div class="col-2"></div>
+        <div class="container">
+                <nav class="navbar navbar-expand-md navbar-light pt-4 pb-3">
+                    <a class="navbar-brand" href="index.html"> 
+                        <span style="font-weight:bold; font-size: 30px;">TIM KANE</span>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav ml-auto">
+                            <li class="nav-item active px-3">
+                                <a class="nav-link" href="index.html">HOME <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item px-3">
+                                <a class="nav-link" href="scratch.html">SCRATCH</a>
+                            </li>
+                            <li class="nav-item px-3">
+                                <a class="nav-link" href="book.html">BOOK</a>
+                            </li>
+                            </ul>
+                        </div>
+                </nav>
+        </div> 
+
+
+
+        <div class="container text-center">
+            <div style="margin-top:5em;">
+                <h3>WELCOME!</h3>
             </div>
-
-
-            <div style="margin-top: 4em"></div>
-                <ul class="nav justify-content-center">
-                    <li class="nav-item">
-                        <form>
-                            <input class="btn btn-outline-dark" style="font-size: 2em;" type="button" value="Home" onclick="window.location.href='index.html'" />
-                        </form>  
-                    </li>      
-                    <div class="col-1"></div>
-                    <li class="nav-item">
-                        <form>
-                            <input class="btn btn-outline-dark" style="font-size: 2em;" type="button" value="Scratch Stuff" onclick="window.location.href='scratch.html'" />
-                        </form>
-                    </li>
-                    <div class="col-1"></div>
-                    <li class="nav-item">
-                        <form>
-                            <input class="btn btn-outline-dark" style="font-size: 2em;" type="button" value="Book Stuff" onclick="window.location.href='book.html'" />
-                        </form>
-                    </li>
-                </ul>        
+            <div style="margin-top: 5em;">
+                <h1>TIM KANE</h1>
+                <h2>CS 160 PORFOLIO</h2>
             </div>
+        </div>  
 
-            <div id="main" role="main">
-                <div class="text-center">
-                    <h1>Welcome!</h1>
-                </div>
-            </div>
-
-        </div>
 
         <script
         src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
