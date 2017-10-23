@@ -6,9 +6,11 @@ function setup() {
 
 function draw() {
     if(mouseIsPressed){
-        fill(0);
+        background(random(0, 255), random(0, 255), random(0, 255), 10);
+        fill(random(0, 255), random(0, 255), random(0, 255), random(0, 255));
+        triangle(mouseX - 40, mouseY + 40, mouseX, mouseY - 40, mouseX + 40, mouseY + 40);
     } else{
-        fill(random(0, 255), random(0, 255), random(0, 255));
+        fill(random(0, 255), random(0, 255), random(0, 255), random(0, 255));
     }
-    ellipse(mouseX, mouseY, 80, 80)
+    triangle(mouseX - 40, mouseY + 40, mouseX, mouseY - 40, mouseX + 40, mouseY + 40);
     }
